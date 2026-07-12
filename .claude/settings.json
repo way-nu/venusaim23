@@ -1,16 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(*)",
-      "Read(*)",
-      "Edit(*)",
-      "Write(*)",
-      "Glob(*)",
-      "Grep(*)",
-      "Skill(*)",
-      "WebFetch(*)",
-      "WebSearch(*)"
-    ],
-    "defaultMode": "bypassPermissions"
+      "Bash(npm run *)",
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "Bash(git check-ignore *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pkill -f \"next-server\")",
+      "Bash(git mv *)"
+    ]
   }
 }

@@ -42,3 +42,6 @@ next-env.d.ts
 
 # JetBrains
 .idea
+
+# Claude Code local settings (personal, per-machine)
+.claude/settings.local.json
