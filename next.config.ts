@@ -1,9 +1,8 @@
 import type {NextConfig} from "next";
 
 const nextConfig: NextConfig = {
-    async rewrites() {
-        return [{source: "/resume", destination: "/docs/resume.pdf"}];
-    },
+    output: "export",
+    images: {unoptimized: true},
 };
 
 export default nextConfig;

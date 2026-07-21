@@ -17,7 +17,7 @@ export const SITE = {
     handle: {user: "venu", host: "portfolio"},
     /** Contact email — contact section + terminal `contact` command. */
     email: "venusaim23@gmail.com",
-    /** Route to the résumé — rewritten to public/docs/resume.pdf in next.config.ts. */
+    /** Route to the résumé — public/resume/index.html redirects to public/docs/resume.pdf. */
     resumeHref: "/resume",
     /** Availability line in the hero badge. */
     availability: "available for senior & freelance roles",
